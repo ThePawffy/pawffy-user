@@ -59,11 +59,52 @@ body {
   letter-spacing: -.075em;
 }
 
-.legal-copy p { margin: 0 0 1.15rem; }
-.legal-copy ul { margin: .3rem 0 1.3rem; padding-left: 1.25rem; }
-.legal-copy li { margin: .55rem 0; padding-left: .25rem; }
-.legal-copy li::marker { color: var(--coral); }
-.legal-copy strong { font-weight: 700; }
+.legal-copy {
+  text-align: left;
+}
+.legal-copy h1,
+.legal-copy h2,
+.legal-copy h3,
+.legal-copy h4,
+.legal-copy p,
+.legal-copy ul,
+.legal-copy ol,
+.legal-copy li {
+  text-align: left;
+}
+.legal-copy h2 {
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(23, 35, 29, 0.12);
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--ink);
+  letter-spacing: -0.02em;
+}
+.legal-copy p {
+  margin: 0 0 1.25rem;
+  line-height: 1.75;
+  color: rgba(23, 35, 29, 0.85);
+}
+.legal-copy ul {
+  margin: 0.5rem 0 1.5rem 1.75rem;
+  padding-left: 0.5rem;
+  list-style-type: disc;
+}
+.legal-copy li {
+  margin: 0.45rem 0;
+  padding-left: 0.5rem;
+  line-height: 1.65;
+  color: rgba(23, 35, 29, 0.85);
+}
+.legal-copy li::marker {
+  color: var(--leaf);
+}
+.legal-copy strong {
+  font-weight: 700;
+  color: var(--ink);
+}
 
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
