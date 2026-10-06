@@ -2,6 +2,7 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 import Header from "./components/Header";
+import { SiteHeader } from "./components/home/site-header";
 import Home from "./pages/Home";
 import Services from "./pages/Services";
 import LostAndFound from "./pages/LostAndFound";
@@ -97,7 +98,7 @@ function App() {
               path="/terms"
               element={
                 <>
-                  <Header />
+                  <SiteHeader sticky />
                   <main className="flex-grow">
                     <Terms />
                   </main>
@@ -110,7 +111,7 @@ function App() {
               path="/privacy-policy"
               element={
                 <>
-                  <Header />
+                  <SiteHeader sticky />
                   <main className="flex-grow">
                     <PrivacyPolicy />
                   </main>
