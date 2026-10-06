@@ -2,12 +2,19 @@ import React from 'react';
 
 const Terms = () => {
   return (
-    <div className="min-h-screen bg-[#f7f3e8] py-14 px-5 sm:px-8 text-[#17231d]">
-      <div className="max-w-4xl mx-auto">
-      <h1 className="text-4xl font-bold mb-4">ThePawffy Terms and Conditions</h1>
-      <p className="font-bold mb-8">Effective Date: October 1, 2026</p>
-      
-      <div className="legal-copy space-y-6">
+    <div className="min-h-screen bg-[#f7f3e8] py-12 px-5 sm:px-8 text-[#17231d] text-left">
+      <div className="max-w-4xl mx-auto text-left">
+        <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-[#17231d]/15 bg-white/60 px-3.5 py-1.5 text-xs font-bold uppercase tracking-[.15em] text-[#2e5d45]">
+          Legal Document
+        </div>
+        <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold mb-3 tracking-tight text-[#17231d] text-left">
+          ThePawffy Terms and Conditions
+        </h1>
+        <p className="font-semibold text-sm sm:text-base text-[#17231d]/70 mb-10 pb-6 border-b border-[#17231d]/15 text-left uppercase tracking-wider">
+          Effective Date: October 1, 2026
+        </p>
+        
+        <div className="legal-copy space-y-6 text-left">
         <p>These Terms and Conditions ("Terms") govern your access to and use of ThePawffy website, mobile applications, marketplace, communications, features, products, and services.</p>
         <p>ThePawffy is operated by Ganapati & Rani Investment LLC, doing business as ThePawffy ("ThePawffy," "Company," "we," "us," or "our").</p>
         <p>By creating an account, accessing or using ThePawffy, purchasing goods or services through the platform, registering as a vendor or service provider, or otherwise using our services, you agree to these Terms and our Privacy Policy.</p>
@@ -317,13 +324,21 @@ const Terms = () => {
         <p>If Vendor-specific written terms conflict with these general Terms, the Vendor-specific terms control only as to the subject matter covered by those terms.</p>
 
         <h2 className="text-2xl font-bold mt-8">35. Contact Information</h2>
-        <p>
-          Ganapati & Rani Investment LLC<br />
-          dba ThePawffy<br />
-          Website: <a href="https://www.thepawffy.com" className="text-blue-600 underline">https://www.thepawffy.com</a><br />
-          Support Email: <a href="mailto:SUPPORT@THEPAWFFY.COM" className="text-blue-600 underline">SUPPORT@THEPAWFFY.COM</a><br />
-          Privacy Policy: <a href="https://www.thepawffy.com/privacy-policy" className="text-blue-600 underline">https://www.thepawffy.com/privacy-policy</a>
-        </p>
+        <div className="mt-6 p-6 rounded-2xl bg-white/70 border border-[#17231d]/15 text-left space-y-2 shadow-sm">
+          <p className="font-bold text-[#17231d] text-base mb-1">
+            Ganapati & Rani Investment LLC<br />
+            dba ThePawffy
+          </p>
+          <p className="text-[#17231d]/85 text-base">
+            Website: <a href="https://www.thepawffy.com" className="text-[#2e5d45] underline font-medium hover:text-[#17231d] transition-colors">https://www.thepawffy.com</a>
+          </p>
+          <p className="text-[#17231d]/85 text-base">
+            Support Email: <a href="mailto:support@thepawffy.com" className="text-[#2e5d45] underline font-medium hover:text-[#17231d] transition-colors">support@thepawffy.com</a>
+          </p>
+          <p className="text-[#17231d]/85 text-base">
+            Privacy Policy: <a href="/privacy-policy" className="text-[#2e5d45] underline font-medium hover:text-[#17231d] transition-colors">https://www.thepawffy.com/privacy-policy</a>
+          </p>
+        </div>
       </div>
       </div>
     </div>

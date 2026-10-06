@@ -14,7 +14,7 @@ const PrivacyPolicy = () => {
           Effective Date: October 1, 2026
         </p>
         
-        <div className="space-y-6 text-left">
+        <div className="legal-copy space-y-6 text-left">
           <p className="text-[#17231d]/85 text-base sm:text-lg leading-relaxed text-left">
             This Privacy Policy explains how Ganapati & Rani Investment LLC, doing business as ThePawffy ("ThePawffy," "we," "us," or "our"), collects, uses, discloses, and protects information when you use ThePawffy websites, mobile applications, products, and services.
           </p>
